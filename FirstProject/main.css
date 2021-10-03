@@ -1,10 +1,10 @@
-/* body {
-  background: url(images/truck.jpg) no-repeat center center fixed;
+body {
+  background: url(images/truck.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-} */
+}
 .menu a {
   text-decoration: none;
   color: white;
@@ -30,12 +30,20 @@
   font-family: 'Playfair Display';
   font-weight: 700;
   font-style: italic;
-  font-size: 50px;
+  /* font-size: 50px;
   position: relative;
-  top: 50px;
+  top: 50px; */
+  color: white;
 }
 .subs {
   font-family: 'Chivo';
-  position: relative;
-  top: 60px;
+  /* position: relative;
+  top: 60px; */
+  color: white;
+}
+.heading {
+  height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
