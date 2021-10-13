@@ -62,11 +62,10 @@ body {
   background: rgba(19, 18, 18, 0.98);
 }
 #download {
-  height: 25vh;
+  height: 35vh;
   /* background: #FF7722; */
   background: rgba(255, 117, 24, .98);
   /* background: rgba(19, 18, 18, 0.95); */
-
 }
 .download-btns {
   position: relative;
@@ -92,6 +91,10 @@ h2 {
   margin: 0 auto;
   color: #FFFDF9
 }
+::placeholder {
+  color: #FFFDF9;
+  opacity: .8;
+}
 #email {
   padding: 10px;
   border: none;
@@ -103,4 +106,28 @@ h2 {
   border-left: 2px solid white;
   border-right: 2px solid white;
   border-radius: 9px;
+}
+.footer {
+  text-align: center;
+  position: relative;
+}
+.footer-list {
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  color: #FFFDF9;
+}
+.footer-list li {
+  float: left;
+  padding: 10px;
+}
+.footer-list li a {
+  color: #FFFDF9;
+  text-decoration: none;
+}
+.box {
+  margin-top: 40px;
+  position: relative;
+  border: 2px solid black;
 }
