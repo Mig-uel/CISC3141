@@ -6,25 +6,70 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;700&family=Playfair+Display:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;700&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>Bussin App - A Food Truck Only App!</title>
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
+      <div class="row" id="home">
+        <div class="col-md-12 nav">
           <ul class="menu">
             <li><a href="#home">Home</a></li>
-            <li><a href="download">Download</a></li>
-            <li><a href="support">Support</a></li>
+            <li><a href="#features">Features</a></li>
+            <li id="btn"><a href="#download">Download</a></li>
           </ul>
+        </div>
+        <div class="col-md-12 heading">
+          <h1 class="main-title text-center">Bussin' App</h1>
+          <h3 class="subs text-center">The only food truck app you'll ever need!</h3>
+          <br>
+          <div class="desc">
+            <p class="subs text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ligula metus, consectetur a metus sed, malesuada lobortis purus. Cras ullamcorper pellentesque leo, nec rutrum lorem gravida ut. Pellentesque eu fringilla nulla. Pellentesque quis ultrices dolor. Vestibulum quis dolor ex. Maecenas.</p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="download-btns text-center">
+            <a href="https://apple.com"><img src="images/ios.png" alt="Download on the App Store"></a>
+            <a href="https://play.google.com"><img src="images/android.png" alt="Get it on Google Play"></a>
+          </div>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-12 heading">
-          <h1 class="main-title text-center">Bussin App</h1>
-          <h3 class="subs text-center">'The only food truck app you'll ever need!'</h3>
+      <div class="row" id="features">
+        <div class="row grid">
+          <h2 class="text-center">How it works</h2>
+          <div class="col-md-4 inner-grid">
+            <h3 class="nums text-center">1</h3>
+            <p class="text-center inner-p">Find your favorite food truck spot or discover one right from the app.</p>
+          </div>
+          <div class="col-md-4 inner-grid">
+            <h3 class="nums text-center">2</h3>
+            <p class="text-center inner-p">Choose your preferred pick-up time and form of payment.</p>
+          </div>
+          <div class="col-md-4 inner-grid">
+            <h3 class="nums text-center">3</h3>
+            <p class="text-center inner-p">Enjoy the super yummy food!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="download">
+
+        <div class="col-md-12">
+          <h2 class="text-center">Sign up to be notified when Bussin' launches!</h2>
+          <form class="text-center sign-up-form" action="index.html" method="post">
+            <input type="text" name="email" id="email" placeholder="johnnyappleseed@icloud.com">
+            <input type="submit" name="submit" value="submit" class="submit-btn">
+          </form>
+
+          <div class="col-md-12 footer">
+            <ul class="footer-list">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+            </ul>
+          </div>
         </div>
       </div>
 

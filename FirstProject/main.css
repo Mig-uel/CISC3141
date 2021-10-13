@@ -5,16 +5,18 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.nav {
+}
 .menu a {
   text-decoration: none;
-  color: white;
+  color: #FFFDF9
 }
 .menu a:hover {
   color: whitesmoke;
 }
 .menu {
   float: right;
-  position: relative;
+  position: fixed;
   list-style: none;
   font-family: 'Chivo';
   font-size: 1em;
@@ -27,23 +29,78 @@ body {
   /* border-right: 1px solid black; */
 }
 .main-title {
-  font-family: 'Playfair Display';
-  font-weight: 700;
-  font-style: italic;
+  font-family: 'Roboto';
+  font-weight: 900;
   /* font-size: 50px;
   position: relative;
   top: 50px; */
-  color: white;
+  color: #FFFDF9;
+  font-size: 80px;
 }
 .subs {
   font-family: 'Chivo';
-  /* position: relative;
-  top: 60px; */
-  color: white;
+  color: #FFFDF9
 }
-.heading {
+.nums {
+  font-family: 'Chivo';
+  font-weight: 700;
+  font-size: 40px;
+  color: #FF7722;
+}
+#btn {
+  border-radius: 100px;
+  background: rgb(255, 117, 24);
+}
+
+#home {
   height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+#features {
+  height: 55vh;
+  /* background: #131212; */
+  padding: 30px;
+  background: rgba(19, 18, 18, 0.98);
+}
+#download {
+  height: 25vh;
+  /* background: #FF7722; */
+  background: rgba(255, 117, 24, .98);
+  /* background: rgba(19, 18, 18, 0.95); */
+
+}
+.download-btns {
+  position: relative;
+  top: -130px;
+}
+.download-btns img {
+  width: 200px;
+}
+.desc {
+  width: 650px;
+  margin: 0 auto;
+}
+h2 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #FFFDF9;
+}
+.inner-grid {
+  position: relative;
+}
+.inner-p {
+  width: 200px;
+  margin: 0 auto;
+  color: #FFFDF9
+}
+#email {
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-radius: 9px;
 }
