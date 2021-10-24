@@ -1,0 +1,61 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework Tracker</title>
+    <link rel="stylesheet" href="./style.css"> 
+</head>
+<body>
+    <div id="main-content">
+        <h1>Semester Homework Tracker</h1>
+
+        <form id="create-semester-form" action="#" method="post">
+            <label for="new-semester-description">Semester description:</label>
+            <input type="text" id="new-semester-description" name="new-semester-description" placeholder="description">
+            <input type="submit" value="Create New Semester">
+        </form>
+
+        <br />
+
+        <form id="create-week-form" action="#" method="post">
+            <label for="new-week-description">Week description:</label>
+            <input type="text" id="new-week-description" name="new-week-description" placeholder="description">
+            <input type="submit" value="Create Week Details">
+        </form>
+
+        <br />
+
+        <form id="create-task-form" action="#" method="post">
+            <label for="new-task-description">Task description:</label>
+            <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
+            <input type="submit" value="Create Assignment Details">
+        </form>
+
+        <br />
+
+        <div id="list">
+            <h2><u>Details</u></h2>
+
+            <div id="semester">
+                <p><strong>Semester Details: </strong></p>
+            </div>
+
+            <div id="week">
+                <p><strong>Week Details: </strong></p>
+            </div>
+
+            <div id="tasks">
+                <p><strong>Assignment Details: </strong></p>
+                <ol id ="assignments_list">
+
+                </ol>
+            </div>
+        </div>
+
+        <input type="submit" onclick="alertFunction()" value="Click to alert!" />
+
+        <script src="index.js"></script>
+    </div>
+
+</body>
+</html>
