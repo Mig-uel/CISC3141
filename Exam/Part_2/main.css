@@ -1,0 +1,31 @@
+* {
+  font-family: 'Open Sans', Arial;
+}
+body {
+  padding: 0px 300px 0px 300px;
+}
+img {
+  width: 400px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 5px;
+}
+h2 {
+  line-height: 0px;
+}
+.image {
+  text-align: center;
+  margin: 0 auto;
+}
+#th-width-1 {
+  width: 120px;
+}
+#th-width-2 {
+  width: 350px;
+}
+#th-width-3 {
+  width: 90px;
+}
